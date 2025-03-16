@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace tpmodul5_103022300104
 {
-    class Class1
+    class HaloGeneric
     {
+        public void SapaUser<T>(T user)
+        {
+            Console.WriteLine($"Halo user {user}");
+        }
     }
 }
